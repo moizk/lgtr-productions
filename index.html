@@ -1,23 +1,32 @@
 ---
 layout: default
+title: LGTR Productions
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="lgtr-container" id="thing-with-videos">
+  <iframe src="https://player.vimeo.com/video/116561999?title=0&byline=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/115911060?title=0&byline=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/108372637?title=0&byline=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+
+
+
+<!-- <div class="isotope js-isotope thing-with-videos lgtr-container" data-isotope-options='{ "layoutMode": "horizontal", "itemSelector": ".item" }'>
+  <div class="item thing-with-videos">
+    <iframe src="https://player.vimeo.com/video/115911060?title=0&byline=0" id="thing-with-videos" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <div class="item thing-with-videos">
+    <iframe src="https://player.vimeo.com/video/115911060?title=0&byline=0" id="thing-with-videos" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <div class="item thing-with-videos">
+    <iframe src="https://player.vimeo.com/video/115911060?title=0&byline=0" id="thing-with-videos" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div> -->
+
+
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#thing-with-videos").fitVids();
+  });
+</script>
