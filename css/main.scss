@@ -63,6 +63,8 @@ div.lgtr-header {
 
 div.content-card {
   padding: 20px 40px;
+  background-color: #d1e4f6;
+  min-height: 356px;
   h2 {
     /* Positioning */
     /* Box-model */
@@ -85,32 +87,32 @@ div.content-card {
   }
 }
 
-div.hover-action {
-  /* Positioning */
-  /* Box-model */
-  /* Typography */
-  /* Visual */
-  /* Misc */
-  div.hover-overlay {
+div.content-card-2 {
+  padding: 20px 40px;
+  background-color: #c2e1be;
+  min-height: 356px;
+  h2 {
     /* Positioning */
     /* Box-model */
-    position: absolute;
-    width: 100%;
-    height: 356px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     /* Typography */
     /* Visual */
-    opacity: 0;
-    background-color: #f9f5ae;
     /* Misc */
-    -webkit-transition: all .4s ease-in-out;
-       -moz-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
-
-    &:hover {
-      opacity: .5;
-    }
+  }
+  h3 {
+    /* Positioning */
+    /* Box-model */
+    margin-top: 0;
+    /* Typography */
+    max-width: 100px;
+    line-height: .5;
+    /* Visual */
+    border-bottom: 2px solid #333;
+    /* Misc */
   }
 }
+
 
 
 .container-fluid {
