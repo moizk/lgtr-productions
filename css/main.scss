@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-{% include normalize.css %}
+{% include bootstrap.css %}
 
 * {
   -webkit-box-sizing: border-box;
@@ -18,24 +18,6 @@ body {
 }
 
 
-/* ---- isotope ---- */
-
-.isotope {
-  background: #DDD;
-  height: 75%;
-}
-
-/* clear fix */
-.isotope:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.item {
-  float: left;
-}
-
 div.lgtr-container {
   /* Positioning */
   /* Box-model */
@@ -43,12 +25,129 @@ div.lgtr-container {
   /* Typography */
   /* Visual */
   /* Misc */
-  iframe {
+}
+
+div.lgtr-header {
+  /* Positioning */
+  /* Box-model */
+  max-width: 200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  /* Typography */
+  text-align: center;
+  /* Visual */
+  /* Misc */
+  img {
     /* Positioning */
     /* Box-model */
-    display: inline-block;
+    max-width: 200px;
+    /* Typography */
+    text-align: center;
+    /* Visual */
+    /* Misc */
+  }
+  a {
+    /* Positioning */
+    /* Box-model */
+    /* Typography */
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* Visual */
+    color: #333;
+    /* Misc */
+  }
+}
+
+div.content-card {
+  padding: 20px 40px;
+  h2 {
+    /* Positioning */
+    /* Box-model */
+    margin-bottom: 0;
+    padding-bottom: 0;
     /* Typography */
     /* Visual */
     /* Misc */
   }
+  h3 {
+    /* Positioning */
+    /* Box-model */
+    margin-top: 0;
+    /* Typography */
+    max-width: 100px;
+    line-height: .5;
+    /* Visual */
+    border-bottom: 2px solid #333;
+    /* Misc */
+  }
 }
+
+div.hover-action {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  /* Misc */
+  div.hover-overlay {
+    /* Positioning */
+    /* Box-model */
+    position: absolute;
+    width: 100%;
+    height: 356px;
+    /* Typography */
+    /* Visual */
+    opacity: 0;
+    background-color: #f9f5ae;
+    /* Misc */
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+}
+
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+div.text-center {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  text-align: center;
+  /* Visual */
+  /* Misc */
+}
+
