@@ -4,18 +4,6 @@
 @charset "utf-8";
 {% include bootstrap.css %}
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/* inherit height from window */
-html, body { height: 100%; }
-
-body {
-  font-family: sans-serif;
-}
 
 img#logo {
   padding-top: 20%;
@@ -46,6 +34,37 @@ video#bgvid {
 div.film-page {
   height: 400px;
 }
+
+/*****************************************************************************/
+/*
+/* Standard Page Elements
+/*
+/*****************************************************************************/
+
+div.lgtr-page-header {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  /* Visual */
+  /* Misc */
+  h1 {
+    /* Positioning */
+    /* Box-model */
+    /* Typography */
+    font-weight: 700;
+    /* Visual */
+    /* Misc */
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Buttons from Kublai
+/*
+/*****************************************************************************/
 
 .button {
   /* Positioning */
