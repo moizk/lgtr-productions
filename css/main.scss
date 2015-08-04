@@ -79,6 +79,11 @@ div.lgtr-page-body {
     /* Visual */
     border-top: 5px solid #eee;
     /* Misc */
+    @media screen and (max-width: 540px) {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
   }
   h5 {
     /* Positioning */
@@ -92,6 +97,10 @@ div.lgtr-page-body {
     /* Visual */
     border-bottom: 5px solid #eee;
     /* Misc */
+    @media screen and (max-width: 540px) {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
   }
 }
 
