@@ -60,6 +60,41 @@ div.lgtr-page-header {
   }
 }
 
+div.lgtr-page-body {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  /* Misc */
+  p {
+    /* Positioning */
+    /* Box-model */
+    margin: 100px auto 20px auto;
+    padding-top: 50px;
+    max-width: 500px;
+    /* Typography */
+    font-family: "le-monde-journal-std-2", Georgia, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    /* Visual */
+    border-top: 5px solid #eee;
+    /* Misc */
+  }
+  h5 {
+    /* Positioning */
+    /* Box-model */
+    max-width: 500px;
+    margin: 0 auto 100px auto;
+    padding-bottom: 50px;
+    /* Typography */
+    font-family: "futura-pt", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    /* Visual */
+    border-bottom: 5px solid #eee;
+    /* Misc */
+  }
+}
+
 /*****************************************************************************/
 /*
 /* Buttons from Kublai
