@@ -63,6 +63,7 @@ div.lgtr-page-header {
 div.lgtr-page-body {
   /* Positioning */
   /* Box-model */
+  padding-bottom: 200px;
   /* Typography */
   /* Visual */
   /* Misc */
@@ -86,7 +87,27 @@ div.lgtr-page-body {
       padding-right: 25px;
       border-top: 0px solid #eee;
     }
-
+  }
+  h4 {
+    /* Positioning */
+    /* Box-model */
+    /* Typography */
+    font-family: "futura-pt", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Visual */
+    /* Misc */
+  }
+  h6 {
+    /* Positioning */
+    /* Box-model */
+    /* Typography */
+    font-family: "futura-pt", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* Visual */
+    /* Misc */
   }
   h5 {
     /* Positioning */
@@ -124,8 +145,9 @@ div.lgtr-page-body {
   white-space: nowrap;
   vertical-align: middle;
   /* Typography */
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
   font-size: 11px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.7px;
   text-shadow: none;
@@ -167,7 +189,7 @@ div.lgtr-page-body {
   /* Positioning */
   /* Box-model */
   /* Typography */
-  font-weight: 500;
+  font-weight: 700;
   /* Visual */
   background-color: rgba(0,0,0,0);
   border-color: #fff;
@@ -192,7 +214,7 @@ div.lgtr-page-body {
   /* Positioning */
   /* Box-model */
   /* Typography */
-  font-weight: 500;
+  font-weight: 700;
   /* Visual */
   background-color: rgba(0,0,0,0);
   border-color: #000;
@@ -203,12 +225,18 @@ div.lgtr-page-body {
           transition: all .2s ease-in-out;
 
   &:hover {
-    border-color: #F1CA6C;
-    color: #F1CA6C;
+    background-color: rgba(0,0,0,1);
+    border-color: #fff;
+    color: #fff;
   }
   &:active, &:focus {
-    border-color: #F1CA6C;
-    color: #F1CA6C;
+    background-color: rgba(0,0,0,1);
+    border-color: #fff;
+    color: #fff;
     outline: none !important;
   }
+}
+
+.kublai-3x {
+  font-size: 30px;
 }
